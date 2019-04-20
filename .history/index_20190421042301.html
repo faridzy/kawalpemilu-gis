@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Visualisasi Kawal Pemilu</title>
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="author" content="Muhammad Farid">
+    <meta name="description" content="A data visualization of the result of Indonesia's recent election built with D3.js and KawalPemilu API">
+    <link rel="shortcut icon" type="image/png" href="src/assets/img/favicon.png" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.css">
+
+    <!-- Scripts -->
+    <script type="text/javascript" src="src/assets/scripts/d3.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+</head>
+<body>
+    <div class="container" id="president">
+        <div class="vote-container">
+            <img src="src/assets/img/jokowi_maruf.png" style="width: 200px;">
+            <div class="vote-description">
+                <h3>JOKOWI-MA'RUF</h3>
+                <h1 id="jokomaruf-vote">0</h1>
+                <h3 id="jokomaruf-vote-percentage">0%</h3>
+            </div>
+        </div>
+        <div class="vote-container">
+            <div class="vote-description">
+                <h3>PRABOWO-SANDI</h3>
+                <h1 id="prabowosandi-vote">0</h1>
+                <h3 id="prabowosandi-vote-percentage">0%</h3>
+            </div>
+            <img src="src/assets/img/prabowo_sandi.png" style="width: 200px;">
+        </div>
+    </div> 
+    <div id="map" style="text-align: center; margin-bottom: 40px;">
+    </div>
+    
+    <div class="container">
+        <p text-align: center;">Built using Js and <a href="http://kawalpemilu.org">KawalPemilu</a> API by <a href="#">Muhammad Farid H</a>.</p>
+    </div>
+
+    <div id="window-panel">
+    </div>
+            
+    <script type="module" src="src/js/main.js"></script>
+</body>
+</html>
+
