@@ -170,12 +170,12 @@ d3.json(APIurl, function(error, data) {
 
     d3.select("#jokomaruf-vote-percentage")
       .text(() => {
-        return (candidateOneTotal / (candidateOneTotal + candidateTwoTotal) * 100).toFixed(2) + "%"
+        return (candidateOneTotal / (validTotal + invalidTotal) * 100).toFixed(2) + "%"
       })
     
     d3.select("#prabowosandi-vote-percentage")
       .text(() => {
-        return (candidateTwoTotal / (candidateOneTotal + candidateTwoTotal) * 100).toFixed(2) + "%"
+        return (candidateTwoTotal / (validTotal + invalidTotal) * 100).toFixed(2) + "%"
       })
 
     d3.select("#received-TPS")
