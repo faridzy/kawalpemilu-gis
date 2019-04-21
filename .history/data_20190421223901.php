@@ -1,30 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Visualisasi Kawal Pemilu</title>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
-    <meta name="author" content="Muhammad Farid">
-    <meta name="description" content="Visualisasi Kawal Pemilu">
-    <meta http-equiv="Refresh" content="30">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
-
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" media="screen" href="src/css/main.css">
-
-    <!-- Scripts -->
-    <script type="text/javascript" src="src/assets/scripts/d3.min.js"></script>
-    <script src="https://d3js.org/topojson.v2.min.js"></script>
-
-</head>
-<body>
-
-
-    <div class="container" style="margin-bottom: 30px;">
+<div class="container" style="margin-bottom: 30px;">
         <div class="ballot-container">
             <img src="src/assets/img/valid.png" style="width: 100px;">
             <div class="validity-description">
@@ -82,19 +56,3 @@
 
     <div id="window-panel">
     </div>
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>      
-     <script type="module" src="src/js/main.js"></script>
-     <script>
-     $(document).ready(function() {
-        setInterval(function() {
-            cache_clear()
-        }, 30000);
-     });
-
-    function cache_clear() {
-        window.location.reload(true);
-    }
-     </script>
-</body>
-</html>
-

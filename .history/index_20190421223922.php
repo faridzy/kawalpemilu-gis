@@ -9,7 +9,6 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="author" content="Muhammad Farid">
     <meta name="description" content="Visualisasi Kawal Pemilu">
-    <meta http-equiv="Refresh" content="30">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
@@ -84,17 +83,6 @@
     </div>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>      
      <script type="module" src="src/js/main.js"></script>
-     <script>
-     $(document).ready(function() {
-        setInterval(function() {
-            cache_clear()
-        }, 30000);
-     });
-
-    function cache_clear() {
-        window.location.reload(true);
-    }
-     </script>
 </body>
 </html>
 

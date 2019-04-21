@@ -66,6 +66,14 @@ a {
     font-weight: bold;
 }
 
+#share-buttons img { 
+    width: 35px; 
+    padding: 5px; 
+    border: 0; 
+    display: inline-block; 
+    margin: 0;
+}
+
 #map {
     text-align: center;
     margin: 0 auto;

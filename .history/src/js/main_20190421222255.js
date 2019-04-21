@@ -34,6 +34,8 @@ let svg = d3.select("#map")
             .append("g")
             .attr("tranform", "translate(0" + margin.left + "," + margin.top + ")");
 
+
+
 let date = Date.now();
 let APIurl = "https://kawal-c1.appspot.com/api/c/0?" + date;
 let lengthOfData;

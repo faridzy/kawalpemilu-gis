@@ -9,7 +9,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="author" content="Muhammad Farid">
     <meta name="description" content="Visualisasi Kawal Pemilu">
-    <meta http-equiv="Refresh" content="30">
+    <meta http-equiv="Refresh" content="5">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
@@ -88,7 +88,7 @@
      $(document).ready(function() {
         setInterval(function() {
             cache_clear()
-        }, 30000);
+        }, 3000);
      });
 
     function cache_clear() {

@@ -51,7 +51,7 @@ h1, h3, p {
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
-    width: 200px; 
+    width: 150px; 
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
     vertical-align: middle;
 }
@@ -64,6 +64,14 @@ h1, h3, p {
 a {
     color: black;
     font-weight: bold;
+}
+
+#share-buttons img { 
+    width: 35px; 
+    padding: 5px; 
+    border: 0; 
+    display: inline-block; 
+    margin: 0;
 }
 
 #map {
@@ -92,6 +100,21 @@ a {
     opacity: 1;
 }
 
+.partai-icon {
+    width: 75px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.partai-container {
+    padding: 0 30px 20px 0;
+    display: inline-block;
+}
+
+.partai-container img {
+    vertical-align: middle;
+}
+
 .button {
     display: inline-block;
     padding: 10px 30px;
@@ -101,4 +124,8 @@ a {
     border: 3px solid black;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#legislative {
+    display: none;
 }
