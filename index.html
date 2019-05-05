@@ -9,7 +9,7 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     <meta name="author" content="Muhammad Farid">
     <meta name="description" content="Visualisasi Kawal Pemilu">
-    <meta http-equiv="Refresh" content="30">
+<!--    <meta http-equiv="Refresh" content="30">-->
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 
@@ -54,7 +54,7 @@
                     <span id="unprocessed-TPS" style="font-weight: bold;">0</span> belum diproses dan <span id="error-TPS"
                         style="font-weight: bold;">0</span> <a style="font-weight: 100; color: #D34E24"
                         href="https://kawalpemilu.org/">bermasalah</a></p>
-                <p>Update terakhir pada <span id="last-update"></span></p>
+                <p>Realtime update. Waktu server: <span id="last-update"></span></p>
             </div>
         </div>
         <div class="ballot-container">
@@ -87,25 +87,14 @@
     <div id="map" style="text-align: center; margin-bottom: 40px;">
     </div>
     <div class="container">
-        <p text-align: center;">Built using Js and <a href="http://kawalpemilu.org">KawalPemilu</a> API by <a href="#">Muhammad Farid H</a>.</p>
+        <p style="text-align: center;">Built using Js and <a href="http://kawalpemilu.org">KawalPemilu</a> API by <a href="#">Muhammad Farid H</a>.</p>
     </div>
 
 
     <div id="window-panel">
     </div>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>      
-     <script type="module" src="src/js/main.js"></script>
-     <script>
-     $(document).ready(function() {
-        setInterval(function() {
-            cache_clear()
-        }, 30000);
-     });
-
-    function cache_clear() {
-        window.location.reload(true);
-    }
-     </script>
+     <script src="src/js/main.js"></script>
 </body>
 </html>
 
